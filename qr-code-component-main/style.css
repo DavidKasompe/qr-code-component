@@ -1,0 +1,25 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    color: hsl(218, 44%, 22%); 
+    background-color: hsl(0, 0%, 100%); 
+ 
+}
+
+
+  img {
+    display: block;
+   margin: 0 auto;
+  }
+
+  @media screen and (max-width: 375px) {
+
+  }
+  
+  @media screen and (min-width: 376px) and (max-width: 1440px) {
+    body {
+        margin: auto;
+        padding: 50px;
+    }
+
+  }
